@@ -14,6 +14,9 @@
 		15A4F6FB28F59EEA00060880 /* PizzaAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4F6FA28F59EEA00060880 /* PizzaAnimationTests.swift */; };
 		15A4F70528F59EEA00060880 /* PizzaAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4F70428F59EEA00060880 /* PizzaAnimationUITests.swift */; };
 		15A4F70728F59EEA00060880 /* PizzaAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4F70628F59EEA00060880 /* PizzaAnimationUITestsLaunchTests.swift */; };
+		15A4F71628F5A32200060880 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4F71528F5A32200060880 /* Pizza.swift */; };
+		15A4F71828F5A49D00060880 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4F71728F5A49D00060880 /* Home.swift */; };
+		15A4F71A28F5B1D900060880 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4F71928F5B1D900060880 /* ArcShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		15A4F70028F59EEA00060880 /* PizzaAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A4F70428F59EEA00060880 /* PizzaAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAnimationUITests.swift; sourceTree = "<group>"; };
 		15A4F70628F59EEA00060880 /* PizzaAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15A4F71528F5A32200060880 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		15A4F71728F5A49D00060880 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		15A4F71928F5B1D900060880 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				15A4F6E928F59EE800060880 /* PizzaAnimationApp.swift */,
+				15A4F71428F59FE900060880 /* Model */,
+				15A4F71328F59FE200060880 /* View */,
 				15A4F6EB28F59EE800060880 /* ContentView.swift */,
 				15A4F6ED28F59EEA00060880 /* Assets.xcassets */,
 				15A4F6EF28F59EEA00060880 /* Preview Content */,
@@ -125,6 +133,23 @@
 				15A4F70628F59EEA00060880 /* PizzaAnimationUITestsLaunchTests.swift */,
 			);
 			path = PizzaAnimationUITests;
+			sourceTree = "<group>";
+		};
+		15A4F71328F59FE200060880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15A4F71728F5A49D00060880 /* Home.swift */,
+				15A4F71928F5B1D900060880 /* ArcShape.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15A4F71428F59FE900060880 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15A4F71528F5A32200060880 /* Pizza.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A4F6EC28F59EE800060880 /* ContentView.swift in Sources */,
+				15A4F71A28F5B1D900060880 /* ArcShape.swift in Sources */,
 				15A4F6EA28F59EE800060880 /* PizzaAnimationApp.swift in Sources */,
+				15A4F71828F5A49D00060880 /* Home.swift in Sources */,
+				15A4F71628F5A32200060880 /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
